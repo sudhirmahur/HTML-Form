@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body> <br><br><br><br>
+    <table align="center" bgcolor="whitesmoke" width="40%">
+        <tr>
+            <td> 
+                <h1 align="center">Registration Now</h1>
+                <form method="post" align="center" action="welcome.html" >
+                    <br> <br>
+                    <img src="src/hacker_4-removebg-preview.png" width="100px" height="70px" alt=" logo">
+
+        
+                    <p> Enter First name: <input type="text" name="fName" placeholder="Enter First name" /></p>
+                    <p>Enter Last name: <input type="text" name="lName" placeholder="Enter Last name " /></p>
+                    <p>Enter Email Id :  <input type="email" name="email" placeholder="Enter Email " required/></p>
+                    <p>Enter Password: <input type="password" name="pass" placeholder="Enter Password" required/></p>
+                    <p> Profession : 
+                        <input type="radio" name="ch1" value="stu"> Student
+                        <input type="radio" name="ch1" value="dev"> Developer
+                    </p>
+                    <p> Gender : 
+                        <input type="radio" name="ch2" value="m"> Male
+                        <input type="radio" name="ch2" value="f"> Female
+                    </p> D.O.B :
+                    <input type="date"> time : <input type="time">
+                    <p> Select Skill :
+                        <input type="checkbox" name="a">HTML
+                        <input type="checkbox" name="b">CSS
+                        <input type="checkbox" name="c">JAVASCRIPT
+                        <input type="checkbox" name="d">REACT
+                    </p>
+                    <p>
+                        Select your course : 
+                        <select name="course">
+                            <option selected>select your course</option>
+                            <option value="bsc">BSC Course </option>
+                            <option>BCA </option>
+                            <option>BTech </option>
+                            <option>Mtech </option>
+                            <option >MCA </option>
+                            <option >Polytachnic</option>
+                        </select>
+                    </p>
+                    <p>
+                        <input type="file" name="file" multiple>
+                    </p>
+
+                    <input type="range">
+                    <p>
+                        <textarea name="text" id="required" cols="30" rows="5" placeholder="Address"></textarea>
+                    </p>
+            
+                    
+            
+            
+            
+                    <input type="reset"> &nbsp;
+                    <input type="submit" name="update" value="Register Now" required/>
+                </form>
+                <br><br>
+        </td>
+        </tr>
+    </table>
+</body>
+</html>
